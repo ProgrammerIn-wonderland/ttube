@@ -5,10 +5,10 @@ its finally here, the one thing literally NO ONE ASKED FOR!!
 A way to run youtube videos in TTY
 
 Dependencies:
-    * (pip) yt-search
-    * (system) mplayer
-    * (system) youtube-dl
-    * (system) fbdev2
+* (pip) yt-search
+* (system) mplayer
+* (system) youtube-dl
+* (system) fbdev2
 
 arch dependencies install: `# pacman -S xf86-video-fbdev youtube-dl && pip install yt-search`
 
