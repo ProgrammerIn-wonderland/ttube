@@ -9,10 +9,11 @@ Dependencies:
 * (system) mplayer
 * (system) youtube-dl
 * (system) fbdev2
+* (system) pulseaudio
 
-arch dependencies install: `# pacman -S xf86-video-fbdev youtube-dl && pip install yt-search`
+arch dependencies install: `# pacman -S pulseaudio f86-video-fbdev youtube-dl && pip install yt-search`
 
-debian dependencies install: `# apt-get install xserver-xorg-video-fbdev youtube-dl && pip install yt-search`
+debian dependencies install: `# apt-get install pulseaudio xserver-xorg-video-fbdev youtube-dl && pip install yt-search`
 
 if you use another distro I'm sure you can figure it out ;)
 

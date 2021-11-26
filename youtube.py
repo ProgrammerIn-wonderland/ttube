@@ -15,4 +15,4 @@ for result in results: # for each result...
 choice = mapper[int(input("which choice? "))] # get ID of choice
 url = "https://www.youtube.com/watch?v=" + choice # full youtube url from ID
 
-os.system("youtube-dl -q --buffer-size 64k -f 18 \"" + url + "\" -o - | mplayer -vo fbdev2 -fs -zoom -xy 1080 -") # change 1080 to your screens first resolution number
+os.system("youtube-dl -q --buffer-size 128k -f 18 \"" + url + "\" -o - | mplayer -ao pulse -vo fbdev2 -fs -zoom -xy 1080 -") # change 1080 to your screens first resolution number
