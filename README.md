@@ -11,7 +11,7 @@ Dependencies:
 * (system) fbdev2
 * (system) pulseaudio
 
-arch dependencies install: `# pacman -S pulseaudio f86-video-fbdev yt-dlp && pip3 install youtube_search`
+arch dependencies install: `# pacman -S pulseaudio xf86-video-fbdev yt-dlp && pip3 install youtube_search`
 
 debian dependencies install: `# apt-get install pulseaudio xserver-xorg-video-fbdev && pip3 install --no-deps -U yt-dlp && pip3 install youtube_search`
 
